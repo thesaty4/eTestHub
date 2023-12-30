@@ -7,6 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
+          "prefix": "eTestHub",
           "style": "scss"
         }
       },
@@ -83,9 +84,7 @@
       }
     }
   },
-  "schematics": {
-    "@schematics/angular:component": {
-      "prefix": "eTestHub"
-    }
+  "cli": {
+    "analytics": "b56c693e-b4b1-466a-a89a-94c1e96f7e0a"
   }
 }

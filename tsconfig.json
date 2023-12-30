@@ -22,7 +22,12 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    // We can access our file, using import {} from '@eTestHub/followed-by-path-file'
+    "baseUrl": "./libs",
+    "paths": {
+      "@eTestHub/*": ["*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
