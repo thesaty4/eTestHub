@@ -26,7 +26,18 @@
     // We can access our file, using import {} from '@eTestHub/followed-by-path-file'
     "baseUrl": "./libs",
     "paths": {
-      "@eTestHub/*": ["*"]
+      "@eTestHub/*": [
+        "*"
+      ],
+      "interceptors": [
+        "./dist/interceptors"
+      ],
+      "theme": [
+        "./dist/theme"
+      ],
+      "utils": [
+        "./dist/utils"
+      ]
     }
   },
   "angularCompilerOptions": {
